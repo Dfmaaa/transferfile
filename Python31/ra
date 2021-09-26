@@ -1,0 +1,4 @@
+r=input(("type:"))
+f=("kr")
+if r==f:
+   return (r):

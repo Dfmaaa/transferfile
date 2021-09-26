@@ -1,0 +1,9 @@
+x=input(("Type:"))
+f=("Open")
+if x==f:
+ print("opening passwordcode.py...")
+open('passwordcode.py')
+if True:
+   print("Done.")
+else:
+   print("Failed :(")

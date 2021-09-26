@@ -1,0 +1,35 @@
+x=input(("Type:"))
+h=("Hello")
+age==age
+hsmall=("hello")
+hexc=("Hello!")
+hexcsmall=("hello!")
+q=("How are you?")
+e=("What is my name?")
+r=("What time is it?")
+n=("What is my age?")
+t=("Am I an adult?")
+w=("Do you like icecream?")
+pizza=("Do you like pizza?")
+like=("Do you like Sameer Achhab?")
+likesmall=("do you like sameer achhab?")
+ageadult=(18)
+if x==q:
+   print("I am great!")
+elif(x==e):
+      print("Your name is",name)
+elif(x==r):
+   print("look it up you idiot")
+elif(x==n):
+   print("Your age is",age)
+elif(x==t):
+   if age<=ageadult:
+    print("No.")
+   else:
+      print("Yes.")
+elif(x==w):
+   print("Yes.")
+elif(x==pizza):
+   print("Depends. Yes I do like pizza, but not pineapple pizza.")
+elif(x==like):
+ print("No.")
