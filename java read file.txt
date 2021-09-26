@@ -1,0 +1,12 @@
+ static String read(String location)throws IOException{
+        File f=new File(location);
+        String text="";
+        try (FileReader fileStream = new FileReader(f);
+             BufferedReader bufferedReader = new BufferedReader(fileStream)) {
+            String line = null;
+            while ((line = bufferedReader.readLine())!= null) {
+                text=line;
+            }
+        }
+        return text;
+    }
